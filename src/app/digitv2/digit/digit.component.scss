@@ -1,0 +1,31 @@
+.wrappD{
+  padding-left: 11px;
+  div{
+    width: 74%;
+    height: 13%;
+  }
+  .clipped{
+    clip-path: polygon(16% 0%, 84% 0%, 100% 50%, 84% 100%, 16% 100%, 0% 50%);
+  }
+  .digit0{
+    transform: translate(13%, 10%);
+  }
+  .digit1{
+    transform: translate(64%, 71%) rotate(90deg);
+  }
+  .digit2{
+    transform: translate(64%, 296%) rotate(90deg);
+  }
+  .digit3{
+    transform: translate(13%, 357%);
+  }
+  .digit4{
+    transform: translate(-38%, 96%) rotate(90deg);
+  }
+  .digit5{
+    transform: translate(-38%, -329%) rotate(90deg);
+  }
+  .digit6{
+    transform: translate(13%, -266%);
+  }
+}

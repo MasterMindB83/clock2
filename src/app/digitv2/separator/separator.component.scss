@@ -1,0 +1,16 @@
+.wrappD{
+  padding-left: 0.5%;
+  div{
+    width: 50%;
+    height: 13%;
+  }
+  .clipped{
+    clip-path: polygon(16% 0%, 84% 0%, 100% 50%, 84% 100%, 16% 100%, 0% 50%);
+  }
+  .sep1{
+    transform: translate(50%, 180%);
+  }
+  .sep2{
+    transform: translate(50%, 360%);
+  }
+}
